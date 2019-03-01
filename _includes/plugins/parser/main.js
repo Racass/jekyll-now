@@ -7,7 +7,7 @@ AccesLogURL = '/classes/Accesslog';
 AccessLogObj =  '{ "IP": "{IP}", "post": "{post}" }';
 
 myBody = AccessLogObj.replace("{IP}", "127.0.0.1").replace("{post}", "tutorial");
-const call = async() =>
+/*const call = async() =>
 {
     const response = await fetch(serverURL + AccessLogURL, {
                     method: 'POST',
@@ -20,4 +20,16 @@ const call = async() =>
                 });
     const myJson = await response.json();
     console.log(myJson);
-}
+}*/
+
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            alert(this.responseText);
+        }
+};
+xhttp.open("POST", serverURL + AccessLogURL, true);
+xhttp.setRequestHeader("Content-type", "application/json");
+xhttp.setRequestHeader('X-Parse-Application-Id', appId);
+xhttp.setRequestHeader("X-Parse-REST-API-Key", restId);
+xhttp.send(myBody);
