@@ -2,14 +2,14 @@
 layout: page
 title: About
 permalink: /about/
+jsarr:
+    - plugins/parser/main.js
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+Sobre mim.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[rcassiolato@outlook.com](mailto:rcassilato@outlook.com)
+[github/racass](https://www.github.com/racass)
+[LinkedIn TODO](https://www.google.com)
