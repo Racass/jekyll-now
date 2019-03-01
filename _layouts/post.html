@@ -16,6 +16,8 @@ layout: default
   {% include disqus.html %}
 </article>
 
-     <script type="text/javascript">
-     {% include {{ js }} %}
-     </script>
+{% for js in page.jsarr %}
+      <script type="text/javascript">
+         {% include {{ js }} %}
+      </script>
+{% endfor %}
