@@ -4,7 +4,7 @@ title: Como criar um blog no github usando Jekyll e Jekyll now!
 tags: [Jekyll, Jekyll-now, jekyllnow, jekyll, now, criar, blog, github]
 jsarr:
     - plugins/parser/main.js
-categories: [Jekyll]
+category: [Jekyll]
 disqus: true
 ---
 
