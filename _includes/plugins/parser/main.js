@@ -1,14 +1,23 @@
-Parse.initialize("wW32hrtDDmN6bogYHa4H7vP86PZYRCg3f3pOWUh0", "d8nM5tpWKNctok38YWZnisyl7N1qXRH0difBOKWv");
-Parse.serverURL = 'https://parseapi.back4app.com/';
+var serverURL = 'https://parseapi.back4app.com/parse/';
+var appId = "wW32hrtDDmN6bogYHa4H7vP86PZYRCg3f3pOWUh0";
+var restId = "xuJvgy3fiTdLpjjStnj4LpfYnqX3JsZiZCSvNUoR";
 
-var AccessLog = Parse.Object.extend("Accesslog");
-var accLog = new AccessLog();
+AccesLogURL = '/classes/Accesslog';
 
-accLog.set("IP", "127.0.0.1");
-accLog.set("post", "Tutorial");
-accLog.save()
-    .then((accLog) => {
-        alert('Object saved with id: '+ accLog.id);
-    }, (error) => {
-        alert('Erro: ' + accLog.message);
-    });
+AccesLogObj =  '{ "IP": "{IP}", "post": "{post}" }';
+
+myBody = AccessLogObj.replace("{IP}", "127.0.0.1").replace("{post}", "tutorial");
+const call = async() =>
+{
+    const response = await fetch(serverURL + AccessLogURL, {
+                    method: 'POST',
+                    body: myBody, // string or object
+                    headers:{
+                    'Content-Type': 'application/json',
+                    'X-Parse-Application-Id': appId,
+                    "X-Parse-REST-API-Key": restId
+                    }
+                });
+    const myJson = await response.json();
+    console.log(myJson);
+}
