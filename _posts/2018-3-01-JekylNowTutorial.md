@@ -47,8 +47,8 @@ Após modificar o arquivo, de um commit changes.
 
 # Site pronto
 
-Pronto! Após essa última configuração, aguarde alguns segundos e o seu github pages estará no ar!
-Caso não esteja, espere até 10 minutos conforme orientação do github. O github caso tenha algum problema com a compilação do seu site, irá enviar um e-mail para o e-mail cadastrado no seu github. Siga as instruções e não será dificil consertar o erro.
+Pronto! Após essa última configuração, aguarde alguns segundos e o seu github pages estará no ar! Aguarde até 10 minutos.  
+Caso tenha algum problema com a compilação do seu site, o github irá enviar um e-mail para o e-mail cadastrado. Siga as instruções e não será dificil consertar o erro.
 
 
 # Dúvidas
