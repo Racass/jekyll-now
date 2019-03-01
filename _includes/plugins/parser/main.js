@@ -2,8 +2,9 @@ var appId = "wW32hrtDDmN6bogYHa4H7vP86PZYRCg3f3pOWUh0";
 var restId = "xuJvgy3fiTdLpjjStnj4LpfYnqX3JsZiZCSvNUoR";
 
 var data = JSON.stringify({
-    "IP": "{IP}",
-    "post": window.location.href.replace("https://racass.github.io/", "").replace("/", "")
+    "post": window.location.href.replace("https://racass.github.io/", "").replace("/", ""),
+    "Navegador": window.navigator.userAgent,
+    "Linguagem": window.navigator.language
   });
   
   var xhr = new XMLHttpRequest();
