@@ -2,7 +2,7 @@ var serverURL = 'https://parseapi.back4app.com/parse/';
 var appId = "wW32hrtDDmN6bogYHa4H7vP86PZYRCg3f3pOWUh0";
 var restId = "xuJvgy3fiTdLpjjStnj4LpfYnqX3JsZiZCSvNUoR";
 
-AccesLogURL = '/classes/Accesslog';
+AccessLogURL = '/classes/Accesslog';
 
 AccessLogObj =  '{ "IP": "{IP}", "post": "{post}" }';
 
