@@ -4,7 +4,7 @@ var restId = "xuJvgy3fiTdLpjjStnj4LpfYnqX3JsZiZCSvNUoR";
 
 AccesLogURL = '/classes/Accesslog';
 
-AccesLogObj =  '{ "IP": "{IP}", "post": "{post}" }';
+AccessLogObj =  '{ "IP": "{IP}", "post": "{post}" }';
 
 myBody = AccessLogObj.replace("{IP}", "127.0.0.1").replace("{post}", "tutorial");
 const call = async() =>
