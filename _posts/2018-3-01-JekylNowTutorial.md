@@ -5,6 +5,7 @@ tags: [Jekyll, Jekyll-now, jekyllnow, jekyll, now, criar, blog, github]
 jsarr:
     - plugins/parser/main.js
 categories: [Jekyll]
+comments: true
 ---
 
 Esse é meu primeiro tutorial postado blog.  
