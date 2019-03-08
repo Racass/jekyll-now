@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Como criar um blog no github usando Jekyll e Jekyll now!
+title: Como adicionar comentários ao seu Jekyll Now!
 tags: [Jekyll, Jekyll-now, jekyllnow, jekyll, now, criar, blog, github, colocar, comentários, jekyll comentarios, disqus]
 jsarr:
     - plugins/parser/main.js
