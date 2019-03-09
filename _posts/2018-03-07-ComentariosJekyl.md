@@ -53,7 +53,7 @@ Os seus posts deverão ficar com essa cara:
     title: Como criar um blog no github usando Jekyll e Jekyll now!  
     disqus: true  
     ---"
-
-    "CONTEUDO DO SEU POST"
+  
+    "CONTEUDO DO SEU POST"  
 }  
 Sem as aspas e chaves.
