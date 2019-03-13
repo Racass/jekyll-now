@@ -50,5 +50,4 @@ Os seus posts deverão ficar com essa cara:
     layout: post  
     title: Como criar um blog no github usando Jekyll e Jekyll now!  
     disqus: true  
-  
-    "CONTEUDO DO SEU POST"  
+    CONTEUDO DO SEU POST
