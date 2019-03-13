@@ -47,13 +47,8 @@ Salve o arquivo.
 ### Nos seus posts adicione a variável disqus: true
 
 Os seus posts deverão ficar com essa cara:  
-{  
-    "---  
     layout: post  
     title: Como criar um blog no github usando Jekyll e Jekyll now!  
     disqus: true  
-    ---"
   
     "CONTEUDO DO SEU POST"  
-}  
-Sem as aspas e chaves.
