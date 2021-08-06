@@ -8,9 +8,9 @@ category: [Flask]
 disqus: true
 ---
 
-# MyFlaskApp
+Essa será uma série de artigos-tutorial de como criarmos nosso primeiro aplicativo web em python, utilizando o framework flask. 
 
-Essa será uma série de artigos-tutorial de como criarmos nosso primeiro aplicativo web em python, utilizando o framework flask.  
+# MyFlaskApp 
 
 ## Iniciando o projeto
 
